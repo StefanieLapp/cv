@@ -1,77 +1,62 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-<!-- alles innerhalb bestimmter gruppen gehört zusammen, für die Struktur immer das package beauty auswählen, dann hälte Atom die Struktur -->
 
 <head>
-  <!-- head teil auch zur Suche verwendet, utf 8 steht für internationale übersetzung der unicodes
-  und es gibt auch author etc für die head informationen -->
   <meta charset="utf-8">
-  <title>Stefanie's Personal Site</title>
+  <title>Stefanie Lapp</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" href="Stefanie.ico.ico">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat|Sacramento&display=swap" rel="stylesheet">
 </head>
 
 <body>
-  <!-- body section ist der teil, den man auf der Website sieht -->
-  <table cellspacing=20>
-    <td> <img src="Stefanie.png" alt="stefanie profile picture"></td>
-    <td>
-      <h1>Stefanie Lapp</h1>
-      <p><em>Magister Artium phil.</em></p>
-      <p>I am specifiying Business requirements for IT solutions. I  ❤ traveling and plant own vegetables in my garden.</p>
-    </td>
-  </table>
-  <hr color=darkblue size=1>
-  <h3>Education</h3>
-  <ul>
-    <li>Certified SaFe 4 Agilist (2019)</li>
-    <li>Talent Program TiSS (Talents in Sales and Station, 2017-2018)</li>
-    <li>Magister Deutsche Sprachwissenschaften & Politikwissenschaften (2001-2007)</li>
-    <li>Wirtschaftsgymnasium Abitur (2000)</li>
-  </ul>
-  <hr color=darkblue size=1>
-  <h3>My Work</h3>
-  <table cellspacing=10>
-    <thead>
-      <th>Dates</th>
-      <th>Work</th>
-    </thead>
-    <tbody>
-      <tr>
-        <td>2018 - </td>
-        <td>Manager Global Sales Product and Program Management @Lufthansa</td>
-      </tr>
-      <tr>
-        <td>2015 - 2018</td>
-        <td>Digital Sales Specialist for lufthansa.com</td>
-      </tr>
-      <tr>
-        <td>2008 - 2015</td>
-        <td>Serivce Professional Check in & Ticketing @Lufthansa</td>
-      </tr>
-    </tbody>
-  </table>
-  <hr color=darkblue size=1>
-  <h3>Skills</h3>
-  <table cellspacing=10>
-    <tr>
-      <td>Agile Projectmanagement</td>
-      <td>⭐⭐⭐</td>
-    </tr>
-    <tr>
-      <td>Airline Tariffs and Prices </td>
-      <td>⭐⭐⭐⭐⭐</td>
-    </tr>
-    <tr>
-      <td>MS Office </td>
-      <td>⭐⭐⭐⭐</td>
-    </tr>
-    <tr>
-      <td>Waterfall Projectmanagement </td>
-      <td>⭐⭐⭐⭐</td>
-    </tr>
-  </table>
-  <hr color=darkblue size=1>
-  <a href="hobbies.html">My Hobbies</a><br>
-  <a href="contact.html">Contact Me</a>
+  <div class="top-container">
+    <!--<img class="top-cloud" src="images/cloud.png" alt="cloud-img"> -->
+    <h1>Hi, I'm Stefanie</h1>
+    <h2><span class="subtitle">a sales specialist</span></h2>
+    <!--<img class="bottom-cloud" src="images/cloud.png" alt="cloud-img"> -->
+    <img src="images/bicycle.png" alt="mountain-img">
+  </div>
+  <hr>
+  <div class="middle-container">
+    <div class="profile">
+      <img class="profile-img" src="images/Stefanie.png" alt="profile-picture">
+      <h2>Bonjour.</h2>
+      <p>I am specifiying Business requirements for IT solutions. I ❤ traveling and plant own vegetables in my garden.</p>
+    </div>
+    <hr>
+    <div class="skills">
+      <h2>My Skills</h2>
+      <div class="skill-row">
+        <img class="skill_1-img" src="images/project-management-2.png" alt="Project Management img">
+        <h3>Project Management</h3>
+        <p>Within my Job as Product and Program Manager I do a lot of Projects. Some are Waterfall projects and my latest was an agile project based on SaFe.</p>
+      </div>
+      <div class="skill-row">
+        <!--<img class="skill_2-img" src="images/AirTicket.png" alt="Airline img">-->
+        <a class="skill_2-img" title="Austrian Airlines (www.austrian.com) / CC BY-SA (https://creativecommons.org/licenses/by-sa/2.0)" href="https://commons.wikimedia.org/wiki/File:Austrian_Airlines_air_ticket_cover.jpg"><img width="256" alt="Austrian Airlines air ticket cover" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Austrian_Airlines_air_ticket_cover.jpg/256px-Austrian_Airlines_air_ticket_cover.jpg"></a>
+        <h3>Airline Fare Structure</h3>
+        <p>As I started my carrier at the Airport as a Ticketing Agent and also my Job as Product and Program Manager is related to Airline Fares and Pricing Structure I know a lot about it.</p>
+      </div>
+    </div>
+    <hr>
+
+    <div class="contact-me">
+      <h2>Get In Touch</h2>
+      <h3>Web development trainee</h3>
+      <p>If you'd like to know why I created my own website and started a web development training get in touch.</p>
+      <a class="btn" href="mailto:stefanie.lapp@hotmail.com">CONTACT ME</a>
+    </div>
+  </div>
+
+  <div class="bottom-container">
+    <a class="footer-link" href="https://www.linkedin.com/in/stefanie-lapp-30017b11b">LinkedIn</a>
+    <a class="footer-link" href="https://twitter.com/Stef_anie_la">Twitter</a>
+    <a class="footer-link" href="http://www.emgeha.de/">Pflanzbuch</a>
+    <p>© 2020 Stefanie Lapp. </p>
+    <p> Images supported by <a class="pixabay" href="https://pixabay.com/de/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2037545">Pixabay</a></p>
+  </div>
+
 </body>
 
 </html>
